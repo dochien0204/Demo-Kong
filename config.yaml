@@ -1,0 +1,10 @@
+_format_version: "1.1"
+services:
+- url: https://localhost:3000/find/1
+  routes:
+  - paths:
+    - ""
+plugins:
+- name: key-checker
+  config:
+    apikey: "Hellomyfriend"
